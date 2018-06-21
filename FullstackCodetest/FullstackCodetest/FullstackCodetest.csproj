@@ -209,18 +209,17 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="compilerconfig.json" />
+    <Content Include="compilerconfig.json.defaults" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -232,6 +231,22 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Static\Styles\bootstrap-grid.css" />
+    <Content Include="Static\Styles\bootstrap-grid.min.css">
+      <DependentUpon>bootstrap-grid.css</DependentUpon>
+    </Content>
+    <Content Include="Static\Styles\bootstrap-reboot.css" />
+    <Content Include="Static\Styles\bootstrap-reboot.min.css">
+      <DependentUpon>bootstrap-reboot.css</DependentUpon>
+    </Content>
+    <Content Include="Static\Styles\bootstrap.css" />
+    <Content Include="Static\Styles\bootstrap.min.css">
+      <DependentUpon>bootstrap.css</DependentUpon>
+    </Content>
+    <Content Include="Static\Styles\styles.css" />
+    <Content Include="Static\Styles\styles.min.css">
+      <DependentUpon>styles.css</DependentUpon>
+    </Content>
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -267,9 +282,51 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
+    <Content Include="Static\Styles\Framework\bootstrap-grid.scss" />
+    <Content Include="Static\Styles\Framework\bootstrap-reboot.scss" />
+    <Content Include="Static\Styles\Framework\bootstrap.scss" />
+    <Content Include="Static\Styles\Framework\_alert.scss" />
+    <Content Include="Static\Styles\Framework\_badge.scss" />
+    <Content Include="Static\Styles\Framework\_breadcrumb.scss" />
+    <Content Include="Static\Styles\Framework\_button-group.scss" />
+    <Content Include="Static\Styles\Framework\_buttons.scss" />
+    <Content Include="Static\Styles\Framework\_card.scss" />
+    <Content Include="Static\Styles\Framework\_carousel.scss" />
+    <Content Include="Static\Styles\Framework\_close.scss" />
+    <Content Include="Static\Styles\Framework\_code.scss" />
+    <Content Include="Static\Styles\Framework\_custom-forms.scss" />
+    <Content Include="Static\Styles\Framework\_dropdown.scss" />
+    <Content Include="Static\Styles\Framework\_forms.scss" />
+    <Content Include="Static\Styles\Framework\_functions.scss" />
+    <Content Include="Static\Styles\Framework\_grid.scss" />
+    <Content Include="Static\Styles\Framework\_images.scss" />
+    <Content Include="Static\Styles\Framework\_input-group.scss" />
+    <Content Include="Static\Styles\Framework\_jumbotron.scss" />
+    <Content Include="Static\Styles\Framework\_list-group.scss" />
+    <Content Include="Static\Styles\Framework\_media.scss" />
+    <Content Include="Static\Styles\Framework\_mixins.scss" />
+    <Content Include="Static\Styles\Framework\_modal.scss" />
+    <Content Include="Static\Styles\Framework\_nav.scss" />
+    <Content Include="Static\Styles\Framework\_navbar.scss" />
+    <Content Include="Static\Styles\Framework\_pagination.scss" />
+    <Content Include="Static\Styles\Framework\_popover.scss" />
+    <Content Include="Static\Styles\Framework\_print.scss" />
+    <Content Include="Static\Styles\Framework\_progress.scss" />
+    <Content Include="Static\Styles\Framework\_reboot.scss" />
+    <Content Include="Static\Styles\Framework\_root.scss" />
+    <Content Include="Static\Styles\Framework\_tables.scss" />
+    <Content Include="Static\Styles\Framework\_tooltip.scss" />
+    <Content Include="Static\Styles\Framework\_transitions.scss" />
+    <Content Include="Static\Styles\Framework\_type.scss" />
+    <Content Include="Static\Styles\Framework\_utilities.scss" />
+    <Content Include="Static\Styles\Framework\_variables.scss" />
+    <Content Include="Static\Styles\base.scss" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\" />
+    <Folder Include="Static\Styles\Framework\mixins\" />
+    <Folder Include="Static\Styles\Framework\utilities\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

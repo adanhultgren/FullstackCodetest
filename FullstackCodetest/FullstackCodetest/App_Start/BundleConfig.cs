@@ -23,9 +23,11 @@ namespace FullstackCodetest
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
-            bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+            bundles.Add(new StyleBundle("~/Content/css").Include(                     
+                      "~/Static/Styles/bootstrap-grid.min.css",
+                      "~/Static/Styles/bootstrap-reboot.min.css",
+                      "~/Static/Styles/bootstrap.min.css",
+                      "~/Static/Styles/styles.min.css"));
         }
     }
 }

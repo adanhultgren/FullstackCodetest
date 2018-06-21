@@ -1,0 +1,19 @@
+﻿[
+  {
+    "outputFile": "Static/Styles/bootstrap-grid.css",
+    "inputFile": "Static/Styles/Framework/bootstrap-grid.scss"
+  },
+  {
+    "outputFile": "Static/Styles/bootstrap-reboot.css",
+    "inputFile": "Static/Styles/Framework/bootstrap-reboot.scss"
+  },
+  {
+    "outputFile": "Static/Styles/bootstrap.css",
+    "inputFile": "Static/Styles/Framework/bootstrap.scss"
+  },
+  {
+    "outputFile": "Static/Styles/styles.css",
+    "inputFile": "Static/Styles/base.scss",
+    "sourceMap": true
+  }
+]
